@@ -135,6 +135,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+# Including custom virtual environment name (last two)
 .env
 .envrc
 .venv
@@ -143,6 +144,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+fpvenv/
+FinalProject/fpvenv/
 
 # Spyder project settings
 .spyderproject
@@ -205,3 +208,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# User-uploaded files (Recommended by co-pilot not to track)
+media/
+
+# Collected static files (Also recommended by co-pilot not to track)
+# These files are duplicate generations and will contain thousands of files from Django.
+staticfiles/
+static_root/
+
