@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Python/Flask runtime
+*.pyc
+flask_session/
+
 # C extensions
 *.so
 
@@ -64,6 +68,9 @@ db.sqlite3-journal
 # Flask stuff:
 instance/
 .webassets-cache
+*.db
+*.sqlite3
+*.sqlite
 
 # Scrapy stuff:
 .scrapy
@@ -135,7 +142,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-# Including custom virtual environment name (last two)
+# Including custom virtual environment name and .flaskenv (last three)
 .env
 .envrc
 .venv
@@ -146,6 +153,7 @@ env.bak/
 venv.bak/
 fpvenv/
 FinalProject/fpvenv/
+.flaskenv
 
 # Spyder project settings
 .spyderproject
