@@ -143,6 +143,7 @@ celerybeat.pid
 
 # Environments
 # Including custom virtual environment name and .flaskenv (last three)
+# Adding dgvenv/, djangogirls/dgvenv/ .dgvenv/ for djangogirls project
 .env
 .envrc
 .venv
@@ -154,6 +155,9 @@ venv.bak/
 fpvenv/
 FinalProject/fpvenv/
 .flaskenv
+dgvenv/
+djangogirls/dgvenv/
+.dgvenv/
 
 # Spyder project settings
 .spyderproject
